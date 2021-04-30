@@ -1,0 +1,20 @@
+
+<main role="main" class="container">
+    <div class="search-hero">
+        <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="Introduce la palabra del link que quieres buscar 🔎" >
+      </div>
+
+
+  <div class="my-3 p-3 bg-white rounded shadow-sm" *ngFor="let group of Groups | filter:searchText">
+        <h3 class="border-bottom border-gray pb-2 mb-0"><b>{{group.Name}}</b></h3>
+        <div class="media text-muted pt-3" *ngFor="let link of group.Links | filter:searchText">
+                <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray" style="font-size: 14px;">
+                    <a class="d-block text-gray-dark" [href]="link.Link2"><b>{{link.title}}</b></a>
+                    {{link.description}}
+                </p>
+        </div>
+  </div>
+
+</main>
+
+
