@@ -10,8 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class CarouselComponent implements OnInit {
 
   slides = [ 
-    {'image': './assets/BannerTTT.jpg', 'text':'¡Conoce al equipo de TTT Argentina Aqui!', 'link': '/Team'}, 
-    {'image': './assets/Slide2.JPG', 'text':'¿En busca de un Link en particular? ¡Ingresa aca y consiguelo!', 'link': '/Links'}];
+    {'image': './assets/BannerTeam.jpg', 'text':'Meet our Team! Click Here', 'link': '/Team'}, 
+    {'image': './assets/BannerLink.jpg', 'text':'Are you looking for a specific Link? Click Here!', 'link': '/Links'}];
 
   ngOnInit(): void {
   }

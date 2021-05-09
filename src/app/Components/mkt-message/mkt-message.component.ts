@@ -29,23 +29,23 @@ export class MktMessageComponent implements OnInit {
 
   Headers = [{
     'image': 'https://www.hotelvalles.com.ar/wp-content/uploads/2017/07/10-internetwi-fi.png',
-    'title':'Carga tu factura de Internet',
-    'Description': 'En pocos clicks ya estaras recibiendo el reintegro de tu factura de internet',
-    'ButtonLink': 'https://internal.ey.net/sites/GDSArgOpsAutomationCenter/Talent/ExpenseBenefitReport/Sitepages/HomePage.aspx',
-    'DescriptionButton': 'Cargar Factura'},
+    'title':'Upload your Internet Bill',
+    'Description': 'If you upload your internet Bill at time, you can receive your reimbursement soon!',
+    'ButtonLink': 'https://www.google.com',
+    'DescriptionButton': 'Upload Your Bill'},
     {
       'image': 'https://icons.iconarchive.com/icons/martz90/circle/512/outlook-icon.png',
-      'title':'Configura tu firma de Outlook',
-      'Description': 'Recuerda colocar tu nombre, cargo que ocupas y Departamento donde trabajas',
-      'ButtonLink': 'https://eygb.sharepoint.com/sites/TheBrandingZone/EY-Email-Signature-Tool/sitePages/Email-Signature.aspx',
-      'DescriptionButton': 'Cambiar firma'
+      'title':'Custom your sign Outlook',
+      'Description': 'Remember set your name, your position and the Department you work',
+      'ButtonLink': 'https://www.google.com',
+      'DescriptionButton': 'Custom your sign'
     },
     {
       'image': 'https://pngimg.com/uploads/cv/cv_PNG1.png',
-      'title':'Refiere a tu conocido',
-      'Description': 'Carga el CV de tu familiar, amigo y/o conocido en el site donde se te dirigira',
-      'ButtonLink': 'https://tas-ey.taleo.net/careersection/gintcs01/jobsearch.ftl?lang=en',
-      'DescriptionButton': 'Cargar el CV'
+      'title':'Refeer your acquantance',
+      'Description': 'Upload the Relative, friend or acquaintance CV and earn a Bonus!',
+      'ButtonLink': 'https://www.google.com',
+      'DescriptionButton': 'Upload CV'
     }
     ];
 
