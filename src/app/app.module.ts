@@ -36,7 +36,7 @@ import { SearchComponent } from './search/search.component';
     Ng2SearchPipeModule,
     MatCarouselModule.forRoot(),
     RouterModule.forRoot([
-      {path: '', component: HomeComponent},
+      {path: './', component: HomeComponent},
       {path: 'Team', component: TeamComponent},
       {path: 'Links', component: SearchComponent},
     ]),
