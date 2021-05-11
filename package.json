@@ -34,7 +34,6 @@
     "path": "^0.12.7",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
-    "typescript": "~3.9.5",
     "web-animations-js": "^2.3.2",
     "zone.js": "~0.10.3"
   },
@@ -46,6 +45,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
+    "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
@@ -62,7 +62,7 @@
     "webpack": "^4.39.2"
   },
   "engines": {
-    "node": "12.18.2",
-    "npm": "6.14.5"
+    "node": "15.14.0",
+    "npm": "7.12.1"
   }
 }
